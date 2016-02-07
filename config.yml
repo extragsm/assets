@@ -1,0 +1,18 @@
+paths: 
+    extended: "demo-files/css/extended" 
+    destination: "demo-files/css/groups"
+groups:
+    homepage:
+        files:
+            - body.css
+            - menu.css
+        destination:
+            - homespage.css
+
+    about-us:
+        files:
+            - body.css
+            - menu.css
+            - contact.css
+        destination:
+            - contact.css

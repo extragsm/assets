@@ -1,0 +1,16 @@
+{
+    "name": "extragsm/assets-compiler",
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.0",
+        "symfony/filesystem": "^3.0",
+        "symfony/yaml": "^3.0",
+        "symfony/config": "^3.0"
+    }
+}
